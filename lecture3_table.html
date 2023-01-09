@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td{
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Practicing colgroup tag -->
+        <!-- <colgroup>
+        <col span="2" style="background-color: aqua;">
+        <col span="2" style="background-color: rebeccapurple">
+
+        </colgroup> -->
+        <colgroup>
+        <col span="1">
+        <col span="1" style="background-color: aqua;">
+        <col span="1">
+        <col span="1" style="background-color: aqua;">
+
+        </colgroup>
+        <tr>
+<td rowspan="2"> State of Health</td>
+<td colspan="2">Range</td>
+
+<td> After Eating</td>
+        </tr>
+     <tr>
+            
+        <td>Minimum</td>
+        <td bgcolor="red"> Maximum</td>
+        <td> 2hrs after Eating</td>
+    </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            
+            <td bgcolor="red">Pre. diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr bgcolor="red">
+            
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td> NA</td>
+            <td> More than 200</td>
+        </tr>
+    </table>
+</body>
+</html>

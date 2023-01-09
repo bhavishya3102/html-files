@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 3px solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col span="1" style="background-color: rgb(79, 42, 165);">
+        <col span="3" style="background-color: chocolate;">
+       </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="3" >DAY </th>
+                <th colspan="4" bgcolor="yellow">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor="pink">Schedule</th>
+                <th rowspan="3" bgcolor="red">Topic</th>
+            </tr>
+            <tr>
+                <th>BEGIN</th>
+                <th>END</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                 <td rowspan="2">
+                    MONDAY
+                 </td>
+                 <td rowspan="2">
+                    8:00 a.m
+                 </td>
+                 <td rowspan="2">
+                    5:00 p.m 
+                 </td>
+                 <td > INTODUNCTION TO XML</td>
+                
+            </tr>
+            <tr>
+                <td> Validity :DTP and Relax</td>
+            </tr>
+            <tr>
+                <td rowspan="4"> Tuesday</td>
+
+            </tr>
+            <tr> 
+                <td>8:00 </td>
+            <td>11:00 </td>
+            <!-- Trick -->
+            <td rowspan="3" > <p>Xpath <hr color="black"> XSL Transformation</p></td>
+            </tr>
+            
+            <tr>
+                <td>11:00</td>
+                <td>2:00</td>
+                
+            </tr>
+            <tr> 
+                <td>2:00</td>
+                <td>5:00</td>
+            
+            </tr>
+            <tr> 
+                <td> wednesday</td>
+                <td>8:00</td>
+                <td>12:00</td>
+                <td> Formatting  Objects</td>
+            </tr>
+            
+                
+
+         </tbody>
+    </table>
+</body>
+</html>
